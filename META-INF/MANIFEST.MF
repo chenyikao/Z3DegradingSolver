@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Z3 Degrading Solver
+Bundle-SymbolicName: ompca.solver;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: ompca.solver.Activator
+Require-Bundle: javax.inject,
+ org.eclipse.osgi,
+ org.eclipse.jface,
+ org.eclipse.e4.ui.services,
+ org.eclipse.e4.core.di.annotations,
+ org.eclipse.core.runtime,
+ ompca
+Automatic-Module-Name: ompca.solver
+Import-Package: javax.annotation;version="1.2.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: ompca.solver,
+ ompca.solver.handlers;x-internal:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-13
