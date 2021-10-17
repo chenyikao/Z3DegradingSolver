@@ -1,2 +1,2 @@
-# Z3DegradingSolver
-Degrading the domain of a given program condition in case of unknown or timeout results from Z3.
+# Z3DowngradingSolver
+A Z3 solver wrapper downgrading the domain of a given program condition in case of unknown or timeout results from plain Z3 solving.
